@@ -21,6 +21,9 @@ namespace WebApi2.Models
         {
         }
 
+        public DbSet<News> News { get; set; }
+
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
