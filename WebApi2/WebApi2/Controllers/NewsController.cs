@@ -24,8 +24,8 @@ namespace WebApi2.Controllers
         }
 
         // GET: api/News/5
-        [ResponseType(typeof(News))]
         [AllowAnonymous]
+        [ResponseType(typeof(News))]        
         public IHttpActionResult GetNews(int id)
         {
             News news = db.News.Find(id);
@@ -38,7 +38,8 @@ namespace WebApi2.Controllers
         }
 
         // PUT: api/News/5
-        [ResponseType(typeof(void))]
+        [AllowAnonymous]
+        [ResponseType(typeof(void))]        
         public IHttpActionResult PutNews(int id, News news)
         {
             if (!ModelState.IsValid)
@@ -73,6 +74,7 @@ namespace WebApi2.Controllers
         }
 
         // POST: api/News
+        [AllowAnonymous]
         [ResponseType(typeof(News))]
         public IHttpActionResult PostNews(News news)
         {
@@ -88,6 +90,7 @@ namespace WebApi2.Controllers
         }
 
         // DELETE: api/News/5
+        [AllowAnonymous]
         [ResponseType(typeof(News))]
         public IHttpActionResult DeleteNews(int id)
         {
