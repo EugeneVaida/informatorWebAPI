@@ -38,7 +38,7 @@ namespace WebApi2.Controllers
         }
 
         // PUT: api/News/5
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin")]
         [ResponseType(typeof(void))]        
         public IHttpActionResult PutNews(int id, News news)
         {
@@ -74,7 +74,7 @@ namespace WebApi2.Controllers
         }
 
         // POST: api/News
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin")]
         [ResponseType(typeof(News))]
         public IHttpActionResult PostNews(News news)
         {
@@ -90,7 +90,7 @@ namespace WebApi2.Controllers
         }
 
         // DELETE: api/News/5
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin")]
         [ResponseType(typeof(News))]
         public IHttpActionResult DeleteNews(int id)
         {
