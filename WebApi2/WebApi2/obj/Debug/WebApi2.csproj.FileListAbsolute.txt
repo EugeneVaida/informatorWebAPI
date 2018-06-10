@@ -162,7 +162,6 @@ F:\GitHub\informatorWebAPI\WebApi2\WebApi2\bin\ru\System.Web.Razor.resources.dll
 F:\GitHub\informatorWebAPI\WebApi2\WebApi2\bin\ru\System.Web.WebPages.resources.dll
 F:\GitHub\informatorWebAPI\WebApi2\WebApi2\bin\ru\System.Web.WebPages.Deployment.resources.dll
 F:\GitHub\informatorWebAPI\WebApi2\WebApi2\bin\ru\System.Web.WebPages.Razor.resources.dll
-F:\GitHub\informatorWebAPI\WebApi2\WebApi2\obj\Debug\WebApi2.csprojResolveAssemblyReference.cache
 F:\GitHub\informatorWebAPI\WebApi2\WebApi2\obj\Debug\WebApi2.csproj.CoreCompileInputs.cache
 F:\GitHub\informatorWebAPI\WebApi2\WebApi2\obj\Debug\WebApi2.dll
 F:\GitHub\informatorWebAPI\WebApi2\WebApi2\obj\Debug\WebApi2.pdb
@@ -250,3 +249,4 @@ E:\Git\informatorWebAPI\WebApi2\WebApi2\obj\Debug\WebApi2.csprojResolveAssemblyR
 E:\Git\informatorWebAPI\WebApi2\WebApi2\obj\Debug\WebApi2.csproj.CoreCompileInputs.cache
 E:\Git\informatorWebAPI\WebApi2\WebApi2\obj\Debug\WebApi2.dll
 E:\Git\informatorWebAPI\WebApi2\WebApi2\obj\Debug\WebApi2.pdb
+F:\GitHub\informatorWebAPI\WebApi2\WebApi2\obj\Debug\WebApi2.csprojResolveAssemblyReference.cache

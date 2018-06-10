@@ -22,6 +22,7 @@ namespace WebApi2.Models
         }
 
         public DbSet<News> News { get; set; }
+        public DbSet<TimeTable> TimeTables { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
