@@ -15,6 +15,7 @@ namespace WebApi2.Controllers
     public class TimeTablesController : ApiController
     {
         private ApplicationDbContext db = new ApplicationDbContext();
+        DateTime thisDay = DateTime.Today;
 
         // GET: api/TimeTables
         [AllowAnonymous]
@@ -34,6 +35,16 @@ namespace WebApi2.Controllers
             }
 
             return Ok(timeTable);
+        }
+
+        // GET: api/GetTodayTimeTable
+        [AllowAnonymous]
+        [ResponseType(typeof(TimeTable))]
+        [Route("api/GetTodayTimeTable")]
+        public IQueryable<TimeTable> GetTodayTimeTable()
+        {
+            var today = thisDay.ToString("d");
+            return db.TimeTables.Where( x => x.Date.Contains(today));
         }
 
         [Authorize(Roles = "Admin")]
